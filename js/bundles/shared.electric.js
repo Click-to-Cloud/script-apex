@@ -5418,9 +5418,9 @@ goog.loadModule(function (exports) {
         ie_close('link');
         ie_open('link', null, null, 'rel', 'stylesheet', 'href', '/script-apex/vendor/senna/senna.css');
         ie_close('link');
-        ie_open('link', null, null, 'rel', 'stylesheet', 'href', '/script-apex/vendor/codemirror/lib/codemirror.css');
-        ie_close('link');
         ie_open('link', null, null, 'rel', 'stylesheet', 'href', '/script-apex/vendor/codemirror/theme/dracula.css');
+        ie_close('link');
+        ie_open('link', null, null, 'rel', 'stylesheet', 'href', '/script-apex/vendor/codemirror/lib/codemirror.css');
         ie_close('link');
         ie_void('script', null, null, 'src', '/script-apex/js/bundles/shared.electric.js');
         ie_void('script', null, null, 'src', '/script-apex/vendor/senna/senna.js');
